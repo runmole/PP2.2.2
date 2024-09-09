@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 
 @Service
-public class CarServicelmpl implements CarService {
+public class CarServiceImp implements CarService {
 
     private List<Car> createCarList() {
         List<Car> list = new ArrayList<>();
